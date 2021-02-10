@@ -6,9 +6,44 @@
 
 body {
     padding: 40px;
+    color: rgb(8, 36, 36);
+    font-family: 'Roboto Mono', monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+h1, h3 {
+    font-family: 'Lexend Giga', sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold; 
+    margin-bottom: 30px;
+}
+h1 {
+    font size: 3em;
+}
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 0.5px;   
+    word-spacing: 20px;  
+}
+p {
+    line-height: 25px;
+}
 blockquote {
     margin: 0 0 0 30px;
+    font-style: italic;
+    line-height: 40px;
+    text-indent: 20%;
 }
-
+span {
+    text-decoration-line: line-through;
+}
+em {
+    text-transform: capitalize ;
+}
+strong {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a {
+    text-decoration-line: none;
+    color: rgb(235, 29, 29);
+    font-weight: bold;
+}
